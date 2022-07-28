@@ -1,0 +1,56 @@
+#dropdown-button-dark {
+    width: 250px !important;   
+    background: linear-gradient(113.96deg, #189AB4 0%, #006096 100%);   
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white; 
+  }
+
+  #dropdown-button-dark:disabled {
+    width: 250px !important;   
+    background: rgba(0, 0, 0, 0.26) !important; 
+    box-sizing: 'border-box';
+    border-radius: '4px';    
+    border-color: white !important;   
+  }
+
+#samplesheetdropdown-input {
+    width: 100% !important;   
+  }
+
+  #formGroup {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #formGroupItem1 {     
+     display: block;
+  }
+
+  #formGroupItem2 {
+    width: 100% !important;
+    display: block;
+ }
+
+ .dropdown-menu .show, .dropdown-item {
+     width: 380px !important;
+ }
+
+ .dropDownAdd {  
+  color: #fff !important;
+  background: linear-gradient(113.96deg, #189AB4 0%, #006096 100%) !important;
+ box-sizing: border-box !important;
+ border-radius: 4px !important;
+ } 
+ 
+ .input-group-text {
+ color: #008196 !important;
+ }
+
+ i svg {
+   vertical-align: unset !important;
+ }
+
+ #sampleSheetTable row {
+  color: #008196 !important;
+ }

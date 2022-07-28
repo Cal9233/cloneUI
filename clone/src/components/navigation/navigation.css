@@ -1,0 +1,86 @@
+div .navbar.navbar-expand {
+    border-bottom: 1px solid #DEE2E6;
+    padding-bottom: 0px;
+    align-items: baseline;
+    padding-right: 15px;
+}
+div.nav-tabs,
+div.navbar-nav.nav-tabs {
+    align-items: baseline;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    .nav-tabs .nav-item a {
+        width: 200px;
+    }
+
+
+a.nav-link {
+    color: #ABABAB;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 26px;
+    height: 68px;
+}
+
+    a.nav-link img {
+        height: 14px;
+        padding-right: 15px;
+    }
+
+
+.nav-tabs .nav-link.active,
+a.tab.nav-link.active {
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom: solid 5px #008196;
+    color: #008196 !important;
+}
+
+a.brand.nav-link,
+a.brand.navbar-brand {
+    text-align: left;
+}
+
+a.brand.nav-link,
+a.brand.navbar-brand img {
+    height: 70px;
+}
+
+
+.ReactTable .rt-thead .rt-th,
+.ReactTable .rt-thead .rt-td {
+    transition: none;
+    box-shadow: none !important;
+}
+
+.user.navbar-nav .nav-item {
+    padding-left: 30px;
+}
+
+.pr-17 {
+    padding-right: 17px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.MuiTabs-root {
+    background-color :  rgba(24, 154, 180, 1) !important;
+}
+
+.myClass {
+    max-height: 50px;
+}
+
+.myClass > a {
+    max-height: 50px;
+}
+
+.nav-tabs .nav-link.disabled {
+   background-color: lightgray !important;
+}
