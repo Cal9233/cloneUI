@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background: -webkit-gradient(linear, left top, right bottom, from(#008196), to(#006096));
+    border-color: #008196;
+}
+
+.pr-17 {
+  padding-right: 17px;
+}
+.pr-24 {
+  padding-right: 24px;
+}
+
+.LibraryPoolDiv {
+    position: absolute !important;
+    width: 370px !important;
+    height: 62px !important;
+    left: 70px !important;
+    top: 115px !important;
+}
+
+    .LibraryPoolDiv.libraryPoolId {
+      position: absolute !important;
+      width: 370px !important;
+      height: 45px !important;
+      left: 70px !important;
+      top: 132px !important;
+  }
+
+
+@media only screen and (min-width: 1200px) {
+  .MuiButtonBase-root.MuiButton-root {
+    width: 195px !important;
+  }  
+}
+
+@media only screen and (min-width: 992px) {
+  .MuiButtonBase-root.MuiButton-root {
+    width: 195px  !important;
+  }  
+}
+
+@media only screen and (min-width: 768px)  and (max-width: 991px) {
+  .MuiButtonBase-root.MuiButton-root {
+    width: 90px !important;
+  }  
+}
+
+@media only screen and (min-width: 576px) {
+  .MuiButtonBase-root {
+    width: 90px !important;
+    margin-left: 8px !important;
+  }  
+}
+
+.react-grid-Container {
+  width: 100% !important;
+}
